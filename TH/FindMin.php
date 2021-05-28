@@ -9,4 +9,8 @@ function findMin($arr){
     return $min;
 }
 $array=[1,2,3,-1,-2,4,5];
-echo "Phan tu nho nhat trong mang la: ".findMin($array);
+foreach ($array as $value){
+    echo $value.",";
+}
+echo "<br>";
+echo "Phan tu nho nhat  la: ".findMin($array);

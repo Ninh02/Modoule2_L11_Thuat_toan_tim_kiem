@@ -9,4 +9,8 @@ function findMax($arr){
     return $max;
 }
 $array=[1,2,3,9,45,6];
-echo "Phan tu lon nhat trong mang la:".findMax($array);
+foreach ($array as $value){
+    echo $value.",";
+}
+echo "<br>";
+echo "Phan tu lon nhat la:".findMax($array);
